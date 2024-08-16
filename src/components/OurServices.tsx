@@ -10,42 +10,54 @@ interface ICarouselGroup {
     group: ICarouselItem[],
 }
 
-export function CarouselEquipa() {
+export function CarouselServices() {
     var paginas = [
         [
             {
-                path: './src/assets/IntegrantesEquipa/AssuncaoMoreiraPhoto.jpg',
-                name: "Assunção Moreira",
+                path: './src/assets/Servicos/Sourcing.jpg',
+                name: "SOURCING",
                 description: "PATTERN MAKER"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/TatianaCirjaPhoto.jpg",
-                name: "Tatiana Cirja",
+                path: "./src/assets/Servicos/QualityControl.jpg",
+                name: "QUALITY CONTROL",
                 description: "FASHION DESIGNER"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/FilipaCiprianoPhoto.jpg",
-                name: "Filipa Cipriano",
+                path: "./src/assets/Servicos/Manufacturing.jpg",
+                name: "MANUFACTURING",
                 description: "GRAPHIC DESIGNER"
             },
         ],
         [
             {
-                path: './src/assets/IntegrantesEquipa/JoanaMagallhaesPhoto.jpg',
-                name: "Joana Magalhães",
+                path: './src/assets/Servicos/PrototypingSampling.jpg',
+                name: "PROTOTYPING AND SAMPLING",
                 description: "PRODUCTION AND LOGISTICS"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/HenriqueCerqueiraPhoto.jpg",
-                name: "Henrique Serqueira",
+                path: "./src/assets/Servicos/Logistics.jpg",
+                name: "LOGISTICS AND SHIPPING",
                 description: "PRODUCTION"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/FranciscoPhoto.jpg",
-                name: "Francisco Costa e Silva",
+                path: "./src/assets/Servicos/Compliance.jpg",
+                name: "COMPLIANCE AND ETHICAL STANDARDS",
                 description: "FOOTWEAR ESPECIALIST"
             },
         ],
+        [
+            {
+                path: './src/assets/Servicos/CostNegotiation.jpg',
+                name: "COST NEGOCIATION",
+                description: "PRODUCTION AND LOGISTICS"
+            },
+            {
+                path: "./src/assets/Servicos/TrendForecasting.jpg",
+                name: "TREND FORECASTING",
+                description: "PRODUCTION"
+            },
+        ]
     ]
 
     return (
@@ -75,29 +87,26 @@ function Group(props: ICarouselGroup) {
 function Item(props: ICarouselItem) {
     return (
         <>
-            <div className='flex flex-col h-full w-1/3 items-center '>
-                <div className='w-44 h-44 rounded-full bg-center bg-origin-content bg-no-repeat bg-cover' style={{
+            <div className='flex flex-col h-96 w-1/3 mx-3 justify-center items-center bg-center bg-origin-content bg-no-repeat bg-cover border-2 border-black' style={{
                     backgroundImage: `url(${props.path})`
-                }}></div>
-                <div className='mt-5 text-center text-2xl poppins-bold'>{props.name}</div>
-                <div className='text-center text-sm poppins-light'>{props.description}</div>
+                }}>
+                <div className='mt-5 w-3/4 p-3 text-center text-xl poppins-bold bg-white'>{props.name}</div>
             </div>
         </>
     )
 }
 
-function OurTeam() {
+function OurServices() {
     return (
         <>
             <div className="w-screen h-screen flex flex-col px-20 py-10 ">
-                <h3 className="text-lg poppins-light">About Us</h3><br />
                 <h2 className="anton-bold text-6xl">
-                    MEET OUR TEAM
+                    SERVICES
                 </h2>
-                <CarouselEquipa />
+                <CarouselServices />
             </div>
         </>
     )
 }
 
-export default OurTeam
+export default OurServices
