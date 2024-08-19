@@ -10,13 +10,15 @@ function App() {
   return (
     <>
       <div>
-        <HomePage/>
-        <OurMission/>
-        <OurObjective/>
-        <OurTeam/>
-        <OurServices/>
-        <Contacts/>
-      </div>      
+        <HomePage />
+        {/*
+          <OurMission/>
+          <OurObjective/>
+          <OurTeam/>
+          <OurServices/>
+          <Contacts/>
+        */}
+      </div>
     </>
   )
 }

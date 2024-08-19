@@ -57,6 +57,11 @@ export function CarouselServices() {
                 name: "TREND FORECASTING",
                 description: "PRODUCTION"
             },
+            {
+                path: './src/assets/Servicos/Sourcing.jpg',
+                name: "SOURCING",
+                description: "PATTERN MAKER"
+            }
         ]
     ]
 
