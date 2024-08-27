@@ -24,20 +24,24 @@ function Contacts() {
 
     return (
         <>
-            <div className="w-screen h-screen bg-black grid grid-rows-1 grid-cols-2 px-20 py-16 text-white ">
-                <div className="">
-                    <h1 className="anton-bold text-8xl">
+            <div className="w-screen sm:h-screen 
+                            bg-black 
+                            grid grid-rows-2 grid-cols-1 sm:grid-rows-1 sm:grid-cols-2 
+                            px-5 py-5 sm:px-20 sm:py-16 
+                            text-white ">
+                <div className="flex flex-col justify-evenly">
+                    <h1 className="anton-bold text-5xl sm:text-8xl">
                         CONTACT US
                     </h1>
-                    <h2 className="my-5 poppins-bold text-2xl">
+                    <h2 className="poppins-bold text-center text-xl sm:text-left sm:text-2xl">
                         Y-BRANDS <br />
                         Apparel and Footwear Production
                     </h2>
-                    <h3 className="my-5 poppins-light text-2xl">
+                    <h3 className="poppins-light text-xl sm:text-left sm:text-2xl">
                         Contact : Joana Barbosa <br />
                         E-mail : joana@y-brands.com
                     </h3>
-                    <div className="flex flex-col my-5 poppins-light text-2xl">
+                    <div className="flex flex-col poppins-light text-xl sm:text-2xl">
                         <div className="flex flex-row">
                             <img src="./src/assets/UKFlag.svg" /> &nbsp; +44 (0) 7497 255 652
                         </div>
@@ -46,7 +50,7 @@ function Contacts() {
                         </div>
                     </div>
                     <div className="">
-                        <h5 className="poppins-bold text-md">Social Media</h5>
+                        <h5 className="poppins-bold text-md pb-3">Social Media</h5>
                         <SiLinkedin size={"50px"} onClick={() => { window.open("https://www.linkedin.com/") }} />
                     </div>
                 </div>

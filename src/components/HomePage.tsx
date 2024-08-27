@@ -3,13 +3,19 @@ import { Button } from '@mui/material'
 function HomePage() {
     return (
         <>
-            <div className="flex flex-col justify-between w-screen h-screen bg-center bg-origin-content bg-no-repeat bg-cover bg-[url('/src/assets/HomePageBackground.jpg')]">
+            <div className="flex flex-col justify-between 
+                            w-screen h-screen 
+                            bg-center bg-origin-content bg-no-repeat bg-cover bg-[url('/src/assets/HomePageBackground.jpg')]">
                 {/* Logo de topo para Mobile*/}
-                <nav className='w-screen flex flex-row justify-center items-center md:hidden'>
+                <nav className='md:hidden flex flex-row justify-center items-center 
+                                w-screen '>
                     <img className='h-full' src='./src/assets/MainLogo.png' />
                 </nav>
                 {/* Menu e Logo de topo para Tablets ou acima.*/}
-                <nav className='hidden md:flex flex-row menu-principal max-w-screen justify-between px-5'>
+                <nav className='hidden md:flex flex-row justify-between 
+                                max-w-screen 
+                                px-5 
+                                menu-principal'>
                     <div className='w-1/5'>
                         <img src='./src/assets/MainLogo.png' />
                     </div>
@@ -44,15 +50,18 @@ function HomePage() {
                 </section>
 
                 {/* Conteúdo para Tablets ou acima.*/}
-                <section className='hidden md:block w-screen h-full'>
-                    <div className='anton-regular ml-5 md:ml-20'>
+                <section className='hidden md:flex flex-col justify-evenly 
+                                    w-screen h-full'>
+                    <div className='anton-regular ml-5 md:px-20'>
                         <h1 className='text-4xl sm:text-6xl  md:text-9xl text-white'>
                             Y-BRANDS
                         </h1>
                         <h2 className='text-xl sm:text-2xl md:text-4xl text-white'>APPAREL & FOOTWEAR PRODUCTION </h2>
                     </div>
                     <div className='flex flex-col md:flex-row'>
-                        <h3 className='w-4/5 py-14 poppins-bold ml-5 md:ml-20 text-md md:text-2xl text-black'>
+                        <h3 className='w-4/5 
+                                       py-14 ml-5 md:px-20 
+                                       text-md lg:text-xl poppins-bold text-black'>
                             JOIN US AND TAKE YOUR BRAND TO THE NEXT LEVEL!
                         </h3>
                         <div className='flex flex-row self-center align-middle w-max py-14'>
