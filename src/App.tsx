@@ -11,6 +11,8 @@ function App() {
     <>
       <div>
         <HomePage />
+        <OurMission/>
+        <OurObjective/>
         
         {/*
           <OurMission/>

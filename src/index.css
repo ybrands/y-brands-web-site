@@ -71,6 +71,22 @@ button:focus-visible {
   }
 }
 
+.shadow-text-subtitle {
+  text-shadow: 3px 2px 0px rgb(233, 233, 233,0.5);
+}
+
+.shadow-text {
+  text-shadow: 5px 2px 0px rgb(233, 233, 233,0.5);
+}
+
+.bordered-text {
+  text-shadow: -0.5px 0.5px 0 white, 0.5px 0.5px 0 white, 0.5px -0.5px 0 white, -0.5px -0.5px 0 white;
+}
+
+.bordered-text-menu {
+  text-shadow: -0.5px 0.5px 0 black, 0.5px 0.5px 0 black, 0.5px -0.5px 0 black, -0.5px -0.5px 0 black;
+}
+
 @keyframes fadeInOptions {
   0% { opacity: 0}
   100% { opacity: 1 }
