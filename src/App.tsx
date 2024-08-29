@@ -13,14 +13,9 @@ function App() {
         <HomePage />
         <OurMission/>
         <OurObjective/>
-        
-        {/*
-          <OurMission/>
-          <OurObjective/>
-          <OurTeam/>
-          <OurServices/>
-          <Contacts/>
-        */}
+        <OurTeam/>
+        <OurServices/>
+        <Contacts/>
       </div>
     </>
   )

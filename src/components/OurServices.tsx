@@ -118,7 +118,7 @@ export function CarouselServices() {
         <Carousel
             indicators={false}
             animation='slide'
-            className="hidden sm:flex flex-col align-middle justify-center                            
+            className="hidden lg:flex flex-col align-middle justify-center                            
                        max-w-screen h-full
                        py-5">
             {
@@ -130,7 +130,7 @@ export function CarouselServices() {
         <Carousel
             indicators={false}
             animation='slide'
-            className="flex flex-col sm:hidden align-middle justify-center                            
+            className="flex flex-col lg:hidden align-middle justify-center                            
                    min-w-screen h-full
                    py-5">
             {
@@ -163,8 +163,8 @@ function Item(props: ICarouselItem) {
             <div onMouseEnter={() => setIsShown(false)}
                 onMouseLeave={() => setIsShown(true)}
                 className='flex flex-col justify-center items-center
-                            h-96 w-full sm:w-1/3 
-                            sm:mx-3                              
+                            h-96 w-full lg:w-1/3 
+                            lg:mx-3                              
                             bg-center bg-origin-content bg-no-repeat bg-cover 
                             border-2 border-black'
                 style={{
@@ -198,9 +198,9 @@ function Item(props: ICarouselItem) {
 function OurServices() {
     return (
         <>
-            <div className="w-screen sm:h-screen 
+            <div className="w-screen  
                             flex flex-col 
-                            px-5 py-5 sm:px-20 sm:py-10">
+                            px-5 py-5 lg:px-20 lg:py-10">
                 <h2 className="anton-bold text-6xl">
                     SERVICES
                 </h2>

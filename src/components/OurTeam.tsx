@@ -84,17 +84,25 @@ export function CarouselEquipa() {
 
     return (
         <>
-            <Carousel className="hidden sm:flex flex-col py-5 max-w-screen h-full align-middle justify-center" indicators={false} animation='slide'>
+            <Carousel indicators={false}
+                      animation='slide'
+                      className="hidden lg:flex flex-col align-middle justify-center
+                                 py-5 
+                                 max-w-screen h-full" >
                 {
                     paginas.map((item, i) =>
                         <Group key={i} group={item} />
                     )
                 }
             </Carousel>
-            <Carousel navButtonsAlwaysVisible className="sm:hidden flex flex-col py-5 min-w-screen align-middle justify-center" indicators={false} animation='slide'>
+            <Carousel navButtonsAlwaysVisible 
+                      indicators={false} 
+                      animation='slide'
+                      className="lg:hidden flex flex-col align-middle justify-center 
+                                 py-5 min-w-screen">
                 {
                     paginasIndividuais.map((item, i) =>
-                        <Item key={i} name={item.name} description={item.description} path={item.path}/>
+                        <Item key={i} name={item.name} description={item.description} path={item.path} />
                     )
                 }
             </Carousel>
@@ -118,7 +126,7 @@ function Group(props: ICarouselGroup) {
 function Item(props: ICarouselItem) {
     return (
         <>
-            <div className='flex flex-col sm:h-full w-full sm:w-1/3 items-center '>
+            <div className='flex flex-col lg:h-full w-full lg:w-1/3 items-center '>
                 <div className='w-44 h-44 rounded-full bg-center bg-origin-content bg-no-repeat bg-cover' style={{
                     backgroundImage: `url(${props.path})`
                 }}></div>
@@ -132,7 +140,7 @@ function Item(props: ICarouselItem) {
 function OurTeam() {
     return (
         <>
-            <div className="w-screen sm:h-screen flex flex-col px-5 py-5 sm:px-20 sm:py-10 ">
+            <div className="w-screen Sflex flex-col px-5 py-5 lg:px-20 lg:py-10 ">
                 <h3 className="text-lg poppins-light">About Us</h3><br />
                 <h2 className="anton-bold text-6xl">
                     MEET OUR TEAM
