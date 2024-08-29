@@ -7,12 +7,12 @@ function HomePage() {
         <>
             <div className="flex flex-col justify-between 
                             w-screen h-screen 
-                            bg-center bg-origin-content bg-no-repeat bg-cover bg-[url('/public/assets/HomePageBackground.jpg')]">
+                            bg-center bg-origin-content bg-no-repeat bg-cover bg-[url('/assets/HomePageBackground.jpg')]">
                 
                 {/* Logo de topo para Mobile*/}
                 <nav className='lg:hidden flex flex-row justify-center items-center 
                                 pt-28'>
-                    <img className='w-1/2' src='/public/assets/YBRANDSSEGUNDA.svg' />
+                    <img className='w-1/2' src='/assets/YBRANDSSEGUNDA.svg' />
                 </nav>
 
                 {/* Menu e Logo de topo para Tablets ou acima.*/}
@@ -21,7 +21,7 @@ function HomePage() {
                                 px-20 my-10 
                                 menu-principal'>
                     <div className='w-1/5 flex flex-row items-center'>
-                        <img src='/public/assets/YBRANDSSEGUNDA.svg' />
+                        <img src='/assets/YBRANDSSEGUNDA.svg' />
                     </div>
                     <div className='w-4/5 px-3 flex flex-row items-center'>
                         <ul className='w-full flex flex-row justify-evenly items-center'>

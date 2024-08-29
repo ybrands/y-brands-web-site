@@ -5,7 +5,7 @@ function OurMission() {
         {/* Conteúdo para Desktop.*/}
         <div className="hidden w-screen lg:flex flex-row px-20 py-5 ">
             <div className='w-1/2 flex flex-col justify-center items-center'>
-                <img className="w-3/4" src="/public/assets/OurMissionImage.svg"/>
+                <img className="w-3/4" src="/assets/OurMissionImage.svg"/>
             </div>
             <div className="w-1/2 py-20 flex flex-col justify-center">
                 <div className='flex flex-col justify-center'>
@@ -36,7 +36,7 @@ function OurMission() {
                 </h2>
             </div>
             <div className='flex flex-col w-full items-center justify-start'>
-                <img className="w-3/4" src="/public/assets/OurMissionImage.svg"/>
+                <img className="w-3/4" src="/assets/OurMissionImage.svg"/>
             </div>            
             <div className='flex flex-col'>
                 <h3 className="text-2xl poppins-bold">OUR MISSION</h3><br/>
