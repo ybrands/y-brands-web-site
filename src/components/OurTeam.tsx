@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import Carousel from 'react-material-ui-carousel'
 
 interface ICarouselItem {
