@@ -10,7 +10,7 @@ function HomePage() {
                 {/* Logo de topo para Mobile*/}
                 <nav className='lg:hidden flex flex-row justify-center items-center 
                                 pt-28'>
-                    <img className='w-1/2' src='.\src\assets\YBRANDSSEGUNDA.svg' />
+                    <img className='w-1/2' src='/src/assets/YBRANDSSEGUNDA.svg' />
                 </nav>
 
                 {/* Menu e Logo de topo para Tablets ou acima.*/}
@@ -19,7 +19,7 @@ function HomePage() {
                                 px-20 my-10 
                                 menu-principal'>
                     <div className='w-1/5 flex flex-row items-center'>
-                        <img src='./src/assets/YBRANDSSEGUNDA.svg' />
+                        <img src='/src/assets/YBRANDSSEGUNDA.svg' />
                     </div>
                     <div className='w-4/5 px-3 flex flex-row items-center'>
                         <ul className='w-full flex flex-row justify-evenly items-center'>
