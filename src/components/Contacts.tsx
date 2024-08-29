@@ -31,7 +31,6 @@ function Contacts() {
                 console.log(error.text);
                 alert('Something went wrong!')
             });
-        e.target.reset()
     };
 
     return (
