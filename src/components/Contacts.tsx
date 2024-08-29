@@ -7,10 +7,22 @@ const SERVICE_ID = "service_0fkdq2n";
 const TEMPLATE_ID = "template_0bcvoqm";
 const PUBLIC_KEY = "HmBHrmW3JU-K08I2J";
 
-function Contacts() {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+type FormInputs = {
+    name: string,
+    telephone: string
+    email: string
+    message: string
+  }
 
-    const onSubmit = (e: any) => {
+function Contacts() {
+    const {
+        register,
+        handleSubmit,
+        // Read the formState before render to subscribe the form state through Proxy
+        formState: { errors },
+      } = useForm<FormInputs>();
+
+    const onSubmit = (e: FormInputs) => {
         emailjs.send(SERVICE_ID, TEMPLATE_ID, e, PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
