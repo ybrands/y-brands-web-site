@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <>
             <div className="flex flex-col justify-between 
-                            w-screen h-screen 
+                            w-screen h-[100vmax] lg:h-screen
                             bg-center bg-origin-content bg-no-repeat bg-cover bg-[url('/assets/HomePageBackground.jpg')]">
                 
                 {/* Logo de topo para Mobile*/}
