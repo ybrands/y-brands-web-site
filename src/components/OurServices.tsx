@@ -15,51 +15,51 @@ export function CarouselServices() {
     var paginas = [
         [
             {
-                path: './src/assets/Servicos/Sourcing.jpg',
+                path: './public/assets/Servicos/Sourcing.jpg',
                 name: "SOURCING",
                 description: "We assist in sourcing high-quality materials, fabrics, and components needed for apparel and footwear production."
             },
             {
-                path: "./src/assets/Servicos/QualityControl.jpg",
+                path: "./public/assets/Servicos/QualityControl.jpg",
                 name: "QUALITY CONTROL",
                 description: "We conduct rigorous quality inspections at various stages of production to maintain high standards and ensure the final products meet our clients' specifications."
             },
             {
-                path: "./src/assets/Servicos/Manufacturing.jpg",
+                path: "./public/assets/Servicos/Manufacturing.jpg",
                 name: "MANUFACTURING",
                 description: "We help coordinate and manage the manufacturing process, working closely with trusted factories to ensure timely and efficient production."
             },
         ],
         [
             {
-                path: './src/assets/Servicos/PrototypingSampling.jpg',
+                path: './public/assets/Servicos/PrototypingSampling.jpg',
                 name: "PROTOTYPING AND SAMPLING",
                 description: "We support all the process from scratch till the final sample, we provide technical skills if needed, as technical design, patterns and print designs."
             },
             {
-                path: "./src/assets/Servicos/Logistics.jpg",
+                path: "./public/assets/Servicos/Logistics.jpg",
                 name: "LOGISTICS AND SHIPPING",
                 description: "We oversee logistics and shipping arrangements to ensure timely delivery of finished goods to the desired destination."
             },
             {
-                path: "./src/assets/Servicos/Compliance.jpg",
+                path: "./public/assets/Servicos/Compliance.jpg",
                 name: "COMPLIANCE AND ETHICAL STANDARDS",
                 description: "We ensure that all production processes adhere to industry regulations, ethical standards, and sustainability practices."
             },
         ],
         [
             {
-                path: './src/assets/Servicos/CostNegotiation.jpg',
+                path: './public/assets/Servicos/CostNegotiation.jpg',
                 name: "COST NEGOCIATION",
                 description: "We leverage our relationships with suppliers and manufacturers to negotiate favourable pricing for materials and production services, helping our clients minimize costs."
             },
             {
-                path: "./src/assets/Servicos/TrendForecasting.jpg",
+                path: "./public/assets/Servicos/TrendForecasting.jpg",
                 name: "TREND FORECASTING",
                 description: "We provide insights into industry trends, market demands, and fashion forecasts to help our clients stay ahead in the competitive apparel and footwear market."
             },
             {
-                path: './src/assets/Servicos/Sourcing.jpg',
+                path: './public/assets/Servicos/Sourcing.jpg',
                 name: "SOURCING",
                 description: "We assist in sourcing high-quality materials, fabrics, and components needed for apparel and footwear production."
             }
@@ -68,47 +68,47 @@ export function CarouselServices() {
 
     var paginasIndividuais = [
         {
-            path: './src/assets/Servicos/Sourcing.jpg',
+            path: './public/assets/Servicos/Sourcing.jpg',
             name: "SOURCING",
             description: "We assist in sourcing high-quality materials, fabrics, and components needed for apparel and footwear production."
         },
         {
-            path: "./src/assets/Servicos/QualityControl.jpg",
+            path: "./public/assets/Servicos/QualityControl.jpg",
             name: "QUALITY CONTROL",
             description: "We conduct rigorous quality inspections at various stages of production to maintain high standards and ensure the final products meet our clients' specifications."
         },
         {
-            path: "./src/assets/Servicos/Manufacturing.jpg",
+            path: "./public/assets/Servicos/Manufacturing.jpg",
             name: "MANUFACTURING",
             description: "We help coordinate and manage the manufacturing process, working closely with trusted factories to ensure timely and efficient production."
         },
         {
-            path: './src/assets/Servicos/PrototypingSampling.jpg',
+            path: './public/assets/Servicos/PrototypingSampling.jpg',
             name: "PROTOTYPING AND SAMPLING",
             description: "We support all the process from scratch till the final sample, we provide technical skills if needed, as technical design, patterns and print designs."
         },
         {
-            path: "./src/assets/Servicos/Logistics.jpg",
+            path: "./public/assets/Servicos/Logistics.jpg",
             name: "LOGISTICS AND SHIPPING",
             description: "We oversee logistics and shipping arrangements to ensure timely delivery of finished goods to the desired destination."
         },
         {
-            path: "./src/assets/Servicos/Compliance.jpg",
+            path: "./public/assets/Servicos/Compliance.jpg",
             name: "COMPLIANCE AND ETHICAL STANDARDS",
             description: "We ensure that all production processes adhere to industry regulations, ethical standards, and sustainability practices."
         },
         {
-            path: './src/assets/Servicos/CostNegotiation.jpg',
+            path: './public/assets/Servicos/CostNegotiation.jpg',
             name: "COST NEGOCIATION",
             description: "We leverage our relationships with suppliers and manufacturers to negotiate favourable pricing for materials and production services, helping our clients minimize costs."
         },
         {
-            path: "./src/assets/Servicos/TrendForecasting.jpg",
+            path: "./public/assets/Servicos/TrendForecasting.jpg",
             name: "TREND FORECASTING",
             description: "We provide insights into industry trends, market demands, and fashion forecasts to help our clients stay ahead in the competitive apparel and footwear market."
         },
         {
-            path: './src/assets/Servicos/Sourcing.jpg',
+            path: './public/assets/Servicos/Sourcing.jpg',
             name: "SOURCING",
             description: "We assist in sourcing high-quality materials, fabrics, and components needed for apparel and footwear production."
         }

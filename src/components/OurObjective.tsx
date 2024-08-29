@@ -21,7 +21,7 @@ function OurMission() {
                     </p>
                 </div>
                 <div className='w-3/5 flex flex-col justify-center items-center'>
-                    <img className="w-5/6" src="/src/assets/OurObjective.svg"/>
+                    <img className="w-5/6" src="/public/assets/OurObjective.svg"/>
                 </div>
             </div>                        
         </div>
@@ -34,7 +34,7 @@ function OurMission() {
                 </h2>
             </div>
             <div className='flex flex-col items-center pt-5'>
-                <img className="w-full" src="/src/assets/OurObjectiveFirstMobile.svg"/>
+                <img className="w-full" src="/public/assets/OurObjectiveFirstMobile.svg"/>
                 <p className="text-md poppins-light text-justify pt-5">
                     We aim to source the best materials, manage manufacturing schedules efficiently, 
                     and maintain strict quality control throughout the production cycle. 
@@ -45,7 +45,7 @@ function OurMission() {
                 </p>
             </div>
             <div className='pt-5 flex flex-col justify-start row-span-2 col-span-2'>
-                <img className="max-w-1/2" src="/src/assets/OurObjectiveSecondMobile.svg"/>
+                <img className="max-w-1/2" src="/public/assets/OurObjectiveSecondMobile.svg"/>
             </div>            
         </div>      
     </>

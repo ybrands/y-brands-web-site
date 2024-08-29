@@ -59,10 +59,10 @@ function Contacts() {
                     <div className="flex flex-col 
                                     poppins-light text-xl lg:text-2xl">
                         <div className="flex flex-row">
-                            <img src="/src/assets/UKFlag.svg" /> &nbsp; +44 (0) 7497 255 652
+                            <img src="/public/assets/UKFlag.svg" /> &nbsp; +44 (0) 7497 255 652
                         </div>
                         <div className="flex flex-row mt-2">
-                            <img src="/src/assets/PTFlag.svg" /> &nbsp; +351 961 347 133
+                            <img src="/public/assets/PTFlag.svg" /> &nbsp; +351 961 347 133
                         </div>
                     </div>
                     <br />

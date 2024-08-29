@@ -14,34 +14,34 @@ export function CarouselEquipa() {
     const paginas = [
         [
             {
-                path: './src/assets/IntegrantesEquipa/AssuncaoMoreiraPhoto.jpg',
+                path: './public/assets/IntegrantesEquipa/AssuncaoMoreiraPhoto.jpg',
                 name: "Assunção Moreira",
                 description: "PATTERN MAKER"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/TatianaCirjaPhoto.jpg",
+                path: "./public/assets/IntegrantesEquipa/TatianaCirjaPhoto.jpg",
                 name: "Tatiana Cirja",
                 description: "FASHION DESIGNER"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/FilipaCiprianoPhoto.jpg",
+                path: "./public/assets/IntegrantesEquipa/FilipaCiprianoPhoto.jpg",
                 name: "Filipa Cipriano",
                 description: "GRAPHIC DESIGNER"
             },
         ],
         [
             {
-                path: './src/assets/IntegrantesEquipa/JoanaMagallhaesPhoto.jpg',
+                path: './public/assets/IntegrantesEquipa/JoanaMagallhaesPhoto.jpg',
                 name: "Joana Magalhães",
                 description: "PRODUCTION AND LOGISTICS"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/HenriqueCerqueiraPhoto.jpg",
+                path: "./public/assets/IntegrantesEquipa/HenriqueCerqueiraPhoto.jpg",
                 name: "Henrique Serqueira",
                 description: "PRODUCTION"
             },
             {
-                path: "./src/assets/IntegrantesEquipa/FranciscoPhoto.jpg",
+                path: "./public/assets/IntegrantesEquipa/FranciscoPhoto.jpg",
                 name: "Francisco Costa e Silva",
                 description: "FOOTWEAR ESPECIALIST"
             },
@@ -50,32 +50,32 @@ export function CarouselEquipa() {
 
     const paginasIndividuais = [
         {
-            path: './src/assets/IntegrantesEquipa/AssuncaoMoreiraPhoto.jpg',
+            path: './public/assets/IntegrantesEquipa/AssuncaoMoreiraPhoto.jpg',
             name: "Assunção Moreira",
             description: "PATTERN MAKER"
         },
         {
-            path: "./src/assets/IntegrantesEquipa/TatianaCirjaPhoto.jpg",
+            path: "./public/assets/IntegrantesEquipa/TatianaCirjaPhoto.jpg",
             name: "Tatiana Cirja",
             description: "FASHION DESIGNER"
         },
         {
-            path: "./src/assets/IntegrantesEquipa/FilipaCiprianoPhoto.jpg",
+            path: "./public/assets/IntegrantesEquipa/FilipaCiprianoPhoto.jpg",
             name: "Filipa Cipriano",
             description: "GRAPHIC DESIGNER"
         },
         {
-            path: './src/assets/IntegrantesEquipa/JoanaMagallhaesPhoto.jpg',
+            path: './public/assets/IntegrantesEquipa/JoanaMagallhaesPhoto.jpg',
             name: "Joana Magalhães",
             description: "PRODUCTION AND LOGISTICS"
         },
         {
-            path: "./src/assets/IntegrantesEquipa/HenriqueCerqueiraPhoto.jpg",
+            path: "./public/assets/IntegrantesEquipa/HenriqueCerqueiraPhoto.jpg",
             name: "Henrique Serqueira",
             description: "PRODUCTION"
         },
         {
-            path: "./src/assets/IntegrantesEquipa/FranciscoPhoto.jpg",
+            path: "./public/assets/IntegrantesEquipa/FranciscoPhoto.jpg",
             name: "Francisco Costa e Silva",
             description: "FOOTWEAR ESPECIALIST"
         },
