@@ -76,24 +76,24 @@ function Contacts() {
                                 mt-5 ">
                     <form className="flex flex-col align-middle items-center justify-between 
                                      w-full" onSubmit={handleSubmit(onSubmit)}>
-                        <label className="w-full mt-2">
+                        <label className="w-full mt-2 poppins-bold">
                             Name <br />
                             <input className="w-full h-10" {...register("name", NameSchema)} />
-                            {errors.name && <p className='text-red-600'>{errors.name.message}</p>}
+                            {errors.name && <p className='text-xs text-red-600 poppins-light'>{errors.name.message}</p>}
                         </label>
-                        <label className="w-full mt-2 ">
+                        <label className="w-full mt-2 poppins-bold">
                             Telephone <br />
                             <input type="tel" className="w-full h-10" {...register("telephone", PhoneSchema)} />
-                            {errors.telephone && <p className='text-red-600'>{errors.telephone.message}</p>}
+                            {errors.telephone && <p className='text-xs text-red-600 poppins-light'>{errors.telephone.message}</p>}
                         </label>
-                        <label className="w-full mt-2">
+                        <label className="w-full mt-2 poppins-bold">
                             E-mail <br />
                             <input type="email" className="w-full h-10" {...register("email", EmailSchema)} />
-                            {errors.email && <p className='text-red-600'>{errors.email.message}</p>}
+                            {errors.email && <p className='text-xs text-red-600 poppins-light'>{errors.email.message}</p>}
                         </label>
-                        <label className="w-full mt-2 h-full">
+                        <label className="w-full mt-2 h-full poppins-bold">
                             Enter Your Message Here <br />
-                            <textarea rows={5} className="w-full" {...register("message")} />
+                            <textarea rows={5} className="w-full noresize" {...register("message")} />
                         </label>
                         <button className="w-full mt-5" type="submit" value="Send"> Send!</button>
                     </form>
