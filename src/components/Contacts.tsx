@@ -35,7 +35,8 @@ function Contacts() {
 
     return (
         <>
-            <div className="w-screen  
+            <div id="ContactsSection"
+                 className="w-screen  
                             bg-black 
                             flex flex-col lg:flex-row
                             px-5 py-5 lg:px-20 lg:py-16 

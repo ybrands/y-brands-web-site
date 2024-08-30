@@ -1,14 +1,18 @@
 import { Button } from '@mui/material'
 
+export interface IHomeSection {
+    /* Método que direcionará o usuário para a seção correta. */
+    scrollToSection: (elementId: string) => void,
+}
 
-
-function HomePage() {
+function HomePage(props: IHomeSection) {
     return (
         <>
-            <div className="flex flex-col justify-between 
+            <div id="HomeSection"
+                className="flex flex-col justify-between 
                             w-screen h-[100vmax] lg:h-screen
                             bg-center bg-origin-content bg-no-repeat bg-cover bg-[url('/assets/HomePageBackground.jpg')]">
-                
+
                 {/* Logo de topo para Mobile*/}
                 <nav className='lg:hidden flex flex-row justify-center items-center 
                                 pt-28'>
@@ -25,10 +29,26 @@ function HomePage() {
                     </div>
                     <div className='w-4/5 px-3 flex flex-row items-center'>
                         <ul className='w-full flex flex-row justify-evenly items-center'>
-                            <li className='w-full text-center rounded-full hover:bg-white'><a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">HOME</a></li>
-                            <li className='w-full text-center rounded-full hover:bg-white'><a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">ABOUT US</a></li>
-                            <li className='w-full text-center rounded-full hover:bg-white'><a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">SERVICES</a></li>
-                            <li className='w-full text-center rounded-full hover:bg-white'><a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">CONTACT</a></li>
+                            <li onClick={() => props.scrollToSection("#HomeSection")} className='w-full text-center rounded-full hover:bg-white'>
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                    HOME
+                                </a>
+                            </li>
+                            <li onClick={() => props.scrollToSection("#OurObjective")} className='w-full text-center rounded-full hover:bg-white'>
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                    ABOUT US
+                                </a>
+                            </li>
+                            <li onClick={() => props.scrollToSection("#OurServices")} className='w-full text-center rounded-full hover:bg-white'>
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                    SERVICES
+                                </a>
+                            </li>
+                            <li onClick={() => props.scrollToSection("#ContactsSection")} className='w-full text-center rounded-full hover:bg-white'>
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                    CONTACT
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -69,7 +89,14 @@ function HomePage() {
                             JOIN US AND TAKE YOUR BRAND TO THE NEXT LEVEL!
                         </h3>
                         <div className='flex flex-row self-center align-middle w-max py-14'>
-                            <Button style={{ backgroundColor: '#FFFFFF', color: 'black', borderRadius: '100px' }} className="w-full" color='secondary' variant='contained' href="#" >KNOW MORE</Button>
+                            <Button 
+                                style={{ backgroundColor: '#FFFFFF', color: 'black', borderRadius: '100px' }}
+                                className="w-full"
+                                color='secondary'
+                                variant='contained'
+                                onClick={() => props.scrollToSection("#OurMission")}>
+                                KNOW MORE
+                            </Button>
                         </div>
                     </div>
                 </section>

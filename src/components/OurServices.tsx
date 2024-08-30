@@ -198,7 +198,8 @@ function Item(props: ICarouselItem) {
 function OurServices() {
     return (
         <>
-            <div className="w-screen  
+            <div id="OurServices"
+                 className="w-screen  
                             flex flex-col 
                             px-5 py-5 lg:px-20 lg:py-10">
                 <h2 className="anton-bold text-6xl">

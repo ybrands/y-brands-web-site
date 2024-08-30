@@ -139,7 +139,8 @@ function Item(props: ICarouselItem) {
 function OurTeam() {
     return (
         <>
-            <div className="w-screen Sflex flex-col px-5 py-5 lg:px-20 lg:py-10 ">
+            <div id="OurTeam"
+                 className="w-screen flex flex-col px-5 py-5 lg:px-20 lg:py-10 ">
                 <h3 className="text-lg poppins-light">About Us</h3><br />
                 <h2 className="anton-bold text-6xl">
                     MEET OUR TEAM

@@ -3,7 +3,8 @@ function OurMission() {
   return (
     <>
         {/* Conteúdo para Desktop.*/}
-        <div className="hidden w-screen lg:flex flex-row px-20 py-5 ">
+        <div id="OurObjective"
+             className="hidden w-screen lg:flex flex-row px-20 py-5 ">
             <div className="flex flex-row">
                 <div className='w-2/5 flex flex-col justify-start'>
                     <h3 className="text-lg poppins-light">About Company</h3><br/>

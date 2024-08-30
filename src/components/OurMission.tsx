@@ -3,7 +3,8 @@ function OurMission() {
   return (
     <>
         {/* Conteúdo para Desktop.*/}
-        <div className="hidden w-screen lg:flex flex-row px-20 py-5 ">
+        <div id="OurMission"
+             className="hidden w-screen lg:flex flex-row px-20 py-5 ">
             <div className='w-1/2 flex flex-col justify-center items-center'>
                 <img className="w-3/4" src="/assets/OurMissionImage.svg"/>
             </div>
