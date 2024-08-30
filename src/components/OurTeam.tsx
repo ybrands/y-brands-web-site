@@ -98,7 +98,7 @@ export function CarouselEquipa() {
                       indicators={false} 
                       animation='slide'
                       className="lg:hidden flex flex-col align-middle justify-center 
-                                 py-5 min-w-screen">
+                                 py-5 mt-5 min-w-screen">
                 {
                     paginasIndividuais.map((item, i) =>
                         <Item key={i} name={item.name} description={item.description} path={item.path} />

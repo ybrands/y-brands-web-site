@@ -68,7 +68,15 @@ function HomePage(props: IHomeSection) {
                     </div>
                     <div className='flex flex-col items-center'>
                         <div className='flex flex-row self-center align-middle w-max'>
-                            <Button style={{ backgroundColor: '#FFFFFF', color: 'black', borderRadius: '100px' }} className="w-full poppins-light" color='secondary' variant='contained' href="#" >KNOW MORE</Button>
+                            <Button 
+                                style={{ backgroundColor: '#FFFFFF', color: 'black', borderRadius: '100px' }} 
+                                className="w-full poppins-light" 
+                                color='secondary' 
+                                variant='contained' 
+                                href="#" 
+                                onClick={() => props.scrollToSection("#OurObjective")}>
+                                    KNOW MORE
+                            </Button>
                         </div>
                     </div>
                 </section>
@@ -94,7 +102,7 @@ function HomePage(props: IHomeSection) {
                                 className="w-full"
                                 color='secondary'
                                 variant='contained'
-                                onClick={() => props.scrollToSection("#OurMission")}>
+                                onClick={() => props.scrollToSection("#OurObjective")}>
                                 KNOW MORE
                             </Button>
                         </div>
