@@ -171,20 +171,20 @@ function Item(props: ICarouselItem) {
                     backgroundImage: `url(${props.path})`
                 }}>
                 {isShown ? (
-                    <div className='mt-5 w-3/4 p-3 
-                                    text-center text-xl poppins-bold 
+                    <div className='mt-5 w-3/4 p-2 
+                                    text-center text-xl poppins-bold break-normal
                                     bg-white'>
                         {props.name}
                     </div>
                 ) : (
                     <>
                         <div className='w-full h-full 
-                                        p-3 
+                                        pt-10
                                         text-center text-xl poppins-bold 
                                         bg-white/75 
                                         fade-in-options'>
                             {props.name}
-                            <p className='poppins-regular text-justify p-12'>
+                            <p className='poppins-regular p-8 break-normal'>
                                 {props.description}
                             </p>
                         </div>

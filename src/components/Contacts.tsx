@@ -67,9 +67,17 @@ function Contacts() {
                         </div>
                     </div>
                     <br />
-                    <div className="">
-                        <h5 className="poppins-bold text-md pb-3">Social Media</h5>
-                        <SiLinkedin size={"50px"} onClick={() => { window.open("https://www.linkedin.com/") }} />
+                    <div className="flex flex-row">
+                        <div className='w-2/4'>
+                            <h5 className="poppins-bold text-md pb-3">Social Media</h5>
+                            <SiLinkedin size={"50px"} onClick={() => { window.open("https://www.linkedin.com/") }} />
+                        </div>
+                        <div className='flex flex-col justify-center w-2/4'>
+                            <h5 className="poppins-bold text-md pb-3">Created by</h5>
+                            <a href='https://www.instagram.com/poty.digital'>
+                                <img className='w-[40%]' src='/assets/pdlogo.svg'/>
+                            </a>                          
+                        </div>                        
                     </div>
                 </div>
                 <div className="flex flex-col align-middle items-center 

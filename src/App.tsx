@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <div id="MainApp" className="w-[99%]" ref={scrollDemoRef}>
+      <div id="MainApp" className="flex flex-col" ref={scrollDemoRef}>
         <MainMenu solidBackground isVisible={exibirMenuFlutuante} scrollToSection={scrollToSection}/>
         <HomePage scrollToSection={scrollToSection} />
         <OurMission/>

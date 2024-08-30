@@ -8,6 +8,7 @@ function OurMission() {
                     <div className='w-1/2 flex flex-col justify-center items-center'>
                         <img className="w-3/4" src="/assets/OurMissionImage.svg" />
                     </div>
+                    <br />
                     <div className="w-1/2 py-20 flex flex-col justify-center">
                         <div className='flex flex-col justify-center'>
                             <h3 className="text-3xl poppins-light">About Company</h3><br />
@@ -16,6 +17,7 @@ function OurMission() {
                                 INTO TRENDS!
                             </h2>
                         </div>
+                        <br />
                         <div className='flex flex-col justify-center'>
                             <h3 className="text-2xl poppins-bold">OUR MISSION</h3><br />
                             <p className="text-2xl poppins-light text-justify">

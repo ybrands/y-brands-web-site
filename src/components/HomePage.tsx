@@ -74,7 +74,7 @@ function HomePage(props: IHomeSection) {
                                 color='secondary' 
                                 variant='contained' 
                                 href="#" 
-                                onClick={() => props.scrollToSection("#OurObjective")}>
+                                onClick={() => props.scrollToSection("#OurMission")}>
                                     KNOW MORE
                             </Button>
                         </div>
@@ -102,7 +102,7 @@ function HomePage(props: IHomeSection) {
                                 className="w-full"
                                 color='secondary'
                                 variant='contained'
-                                onClick={() => props.scrollToSection("#OurObjective")}>
+                                onClick={() => props.scrollToSection("#OurMission")}>
                                 KNOW MORE
                             </Button>
                         </div>
