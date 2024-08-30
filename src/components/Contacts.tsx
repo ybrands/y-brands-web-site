@@ -96,7 +96,7 @@ function Contacts() {
                             Enter Your Message Here <br />
                             <textarea rows={5} className="w-full noresize" {...register("message")} />
                         </label>
-                        <button className="w-full mt-5" type="submit" value="Send"> Send!</button>
+                        <button className="w-full mt-5 sendButton" type="submit" value="Send"> Send Message</button>
                     </form>
                 </div>
             </div>

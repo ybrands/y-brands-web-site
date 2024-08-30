@@ -73,6 +73,9 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .sendButton {
+    color: #213547;
+  }
 }
 
 .shadow-text-subtitle {
