@@ -30,22 +30,22 @@ function HomePage(props: IHomeSection) {
                     <div className='w-4/5 px-3 flex flex-row items-center'>
                         <ul className='w-full flex flex-row justify-evenly items-center'>
                             <li onClick={() => props.scrollToSection("#HomeSection")} className='w-full text-center rounded-full hover:bg-white'>
-                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' >
                                     HOME
                                 </a>
                             </li>
                             <li onClick={() => props.scrollToSection("#OurObjective")} className='w-full text-center rounded-full hover:bg-white'>
-                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' >
                                     ABOUT US
                                 </a>
                             </li>
                             <li onClick={() => props.scrollToSection("#OurServices")} className='w-full text-center rounded-full hover:bg-white'>
-                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' >
                                     SERVICES
                                 </a>
                             </li>
                             <li onClick={() => props.scrollToSection("#ContactsSection")} className='w-full text-center rounded-full hover:bg-white'>
-                                <a className='block w-full poppins-light text-white hover:text-black text-xl' href="#">
+                                <a className='block w-full poppins-light text-white hover:text-black text-xl' >
                                     CONTACT
                                 </a>
                             </li>
@@ -72,8 +72,7 @@ function HomePage(props: IHomeSection) {
                                 style={{ backgroundColor: '#FFFFFF', color: 'black', borderRadius: '100px' }} 
                                 className="w-full poppins-light" 
                                 color='secondary' 
-                                variant='contained' 
-                                href="#" 
+                                variant='contained'                                  
                                 onClick={() => props.scrollToSection("#OurMission")}>
                                     KNOW MORE
                             </Button>
