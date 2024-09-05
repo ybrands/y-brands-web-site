@@ -106,11 +106,6 @@ export function CarouselServices() {
             path: "./assets/Servicos/TrendForecasting.jpg",
             name: "TREND FORECASTING",
             description: "We provide insights into industry trends, market demands, and fashion forecasts to help our clients stay ahead in the competitive apparel and footwear market."
-        },
-        {
-            path: './assets/Servicos/Sourcing.jpg',
-            name: "SOURCING",
-            description: "We assist in sourcing high-quality materials, fabrics, and components needed for apparel and footwear production."
         }
     ]
 
