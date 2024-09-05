@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import {EmailSchema, NameSchema, PhoneSchema} from './validators/ContactsFormValidationSchemas';
 
 const SERVICE_ID = "service_rusc5yh";
-const TEMPLATE_ID = "template_qbky34j";
+const TEMPLATE_ID = "template_an1l9lw";
 const PUBLIC_KEY = "yUuUvZAhOAXRlaiCB";
 
 type FormInputs = {
