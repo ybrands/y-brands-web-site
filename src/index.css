@@ -79,6 +79,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  input {
+    color: #213547;
+  }
+  textarea {
+    color: #213547;
+  }
   .sendButton {
     color: #213547;
   }
