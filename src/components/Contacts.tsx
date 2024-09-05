@@ -3,9 +3,9 @@ import { SiLinkedin } from "react-icons/si";
 import { useForm } from "react-hook-form";
 import {EmailSchema, NameSchema, PhoneSchema} from './validators/ContactsFormValidationSchemas';
 
-const SERVICE_ID = "service_0fkdq2n";
-const TEMPLATE_ID = "template_0bcvoqm";
-const PUBLIC_KEY = "HmBHrmW3JU-K08I2J";
+const SERVICE_ID = "service_rusc5yh";
+const TEMPLATE_ID = "template_qbky34j";
+const PUBLIC_KEY = "yUuUvZAhOAXRlaiCB";
 
 type FormInputs = {
     name: string,
