@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/assets/YBRANDSSEGUNDA.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/assets/YBRANDSSEGUNDA.svg" id="dark-scheme-icon"/>   
+    <link rel="icon" type="image/svg+xml" href="/assets/YBRANDSBRANCA.svg" id="light-scheme-icon"/>   
     <title>Y-BRANDS - APPAREL & FOOTWEAR PRODUCTION</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +12,6 @@
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <meta name="description" content="Y-Brands optimizes the supply chain, reduces costs, and maximizes profits with sourcing, manufacturing, and quality control services for apparel and footwear brands.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="keywords" content="Supply Chain Optimization, Cost Reduction, Profit Maximization, Sourcing Services, Manufacturing Services, Quality Control, Apparel Brands, Footwear Brands, Supply Chain Efficiency, Brand Profitability">
   </head>
@@ -21,4 +19,22 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+  <script>
+      var lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+      var darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
+
+      function onUpdate() {
+        if (matcher.matches) {
+          lightSchemeIcon.remove();
+          document.head.append(darkSchemeIcon);
+        } else {
+          document.head.append(lightSchemeIcon);
+          darkSchemeIcon.remove();
+        }
+      }
+
+      var matcher = window.matchMedia('(prefers-color-scheme: dark)');
+      matcher.addListener(onUpdate);
+      onUpdate();
+  </script>
 </html>
