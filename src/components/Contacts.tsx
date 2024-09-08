@@ -54,7 +54,7 @@ function Contacts() {
                     <br />
                     <h3 className="poppins-light text-xl lg:text-left lg:text-2xl">
                         Contact : Joana Barbosa <br />
-                        E-mail : joana@y-brands.com
+                        E-mail : contact@y-brands.com
                     </h3>
                     <br />
                     <div className="flex flex-col 
