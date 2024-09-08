@@ -80,7 +80,7 @@ function Contacts() {
                     <div className="flex flex-row">
                         <div className='w-2/4'>
                             <h5 className="poppins-bold text-md pb-3">Social Media</h5>
-                            <SiLinkedin size={"50px"} onClick={() => { window.open("https://www.linkedin.com/") }} />
+                            <SiLinkedin size={"50px"} onClick={() => { window.open("https://www.linkedin.com/in/y-brands-659194327/") }} />
                         </div>
                         <div className='flex flex-col justify-center w-2/4'>
                             <h5 className="poppins-bold text-md pb-3">Created by</h5>
