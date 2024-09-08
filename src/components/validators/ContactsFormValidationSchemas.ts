@@ -1,4 +1,4 @@
-
+/** Descrição para o validador de E-mail. */
 export const EmailSchema = {
     required: "Email is required",
     pattern: {
@@ -7,6 +7,7 @@ export const EmailSchema = {
     }
 };
 
+/** Descrição para o validador de Telefone. */
 export const PhoneSchema = {
     required: "Telephone is required",
     pattern: {
@@ -15,4 +16,5 @@ export const PhoneSchema = {
     }
 };
 
+/** Descrição para o validador de Nome. */
 export const NameSchema = { required: "Name is required" };

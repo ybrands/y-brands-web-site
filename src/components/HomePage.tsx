@@ -1,5 +1,10 @@
 import { Button } from '@mui/material'
 
+/**
+ * Interface IHomeSection para definição das Propriedades Básicas da seção inicial.
+ *
+ * @interface IHomeSection
+ */
 export interface IHomeSection {
     /* Método que direcionará o usuário para a seção correta. */
     scrollToSection: (elementId: string) => void,

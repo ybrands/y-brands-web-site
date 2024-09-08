@@ -2,6 +2,11 @@
 
 import { twMerge } from 'tailwind-merge'
 
+/**
+ * Interface IMainMenu para definição das Propriedades Básicas do Menu Suspenso.
+ *
+ * @interface IMainMenu
+ */
 export interface IMainMenu {
   /* Método que direcionará o usuário para a seção correta. */
   scrollToSection: (elementId: string) => void,

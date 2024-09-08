@@ -1,12 +1,26 @@
 import Carousel from 'react-material-ui-carousel'
 
+/**
+ * Interface ICarouselItem para definição das Propriedades Básicas do Item do Carousel de Serviços.
+ *
+ * @interface ICarouselItem
+ */
 interface ICarouselItem {
+    /* Caminho da Imagem. */
     path: string,
+    /* Nome do Serviço. */
     name: string,
+    /* Descrição do Serviço. */
     description: string,
 }
 
+/**
+ * Interface ICarouselGroup a qual define o grupo de itens que será exibido em cada parte do carousel.
+ *
+ * @interface ICarouselGroup
+ */
 interface ICarouselGroup {
+    /* Lista de Itens. */
     group: ICarouselItem[],
 }
 

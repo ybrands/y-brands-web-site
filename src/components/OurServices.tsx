@@ -1,8 +1,16 @@
 import { useState } from 'react';
 
+/**
+ * Interface ICarouselItem para definição das Propriedades Básicas do Item do Carousel de Serviços.
+ *
+ * @interface ICarouselItem
+ */
 interface ICarouselItem {
+    /* Caminho da Imagem. */
     path: string,
+    /* Nome do Serviço. */
     name: string,
+    /* Descrição do Serviço. */
     description: string,
 }
 

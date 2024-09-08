@@ -1,16 +1,26 @@
-import emailjs from '@emailjs/browser';
+import {EmailSchema, NameSchema, PhoneSchema} from './validators/ContactsFormValidationSchemas';
 import { SiLinkedin } from "react-icons/si";
 import { useForm } from "react-hook-form";
-import {EmailSchema, NameSchema, PhoneSchema} from './validators/ContactsFormValidationSchemas';
+import emailjs from '@emailjs/browser';
 
+/* Constantes do Serviço do Email JS.*/
 const SERVICE_ID = "service_rusc5yh";
 const TEMPLATE_ID = "template_an1l9lw";
 const PUBLIC_KEY = "yUuUvZAhOAXRlaiCB";
 
+/**
+ * Type FormInputs para definição das Propriedades Básicas do formulário de contacto.
+ *
+ * @type FormInputs
+ */
 type FormInputs = {
+    /* Nome do Cliente */
     name: string,
-    telephone: string
-    email: string
+    /* Telefone do Cliente */
+    telephone: string,
+    /* Email do Cliente */
+    email: string,
+    /* Conteúdo da Mensagem */
     message: string
   }
 
